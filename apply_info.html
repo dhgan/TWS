@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>工具申请信息</title>
+    <link rel="stylesheet" href="style/basic.css">
+    <link rel="stylesheet" href="style/table_layout.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="employee.html">员工管理</a></li>
+        <li><a href="tool.html">工具管理</a></li>
+        <li><a href="lend_record_admin.html">工具租借记录</a></li>
+        <li><a href="apply_info.html" class="selected">工具申请信息</a></li>
+        <li><a href="admin_Info.html">个人信息</a></li>
+    </ul>
+</nav>
+<div id="main_page">
+    <header>
+        <a href="login.html">仓库实时管理系统</a>
+        <span id="logout">退出</span>
+    </header>
+    <div id="content">
+        <table>
+            <caption>当前未操作申请信息</caption>
+            <thead>
+            <tr>
+                <th>申请号</th>
+                <th>员工号</th>
+                <th>工具号</th>
+                <th>工具所在公司</th>
+                <th>申请日期</th>
+                <th>申请时间</th>
+                <th>状态</th>
+                <th>操作</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <table>
+            <caption>当前已同意申请信息</caption>
+            <thead>
+            <tr>
+                <th>申请号</th>
+                <th>员工号</th>
+                <th>工具号</th>
+                <th>工具所在公司</th>
+                <th>申请日期</th>
+                <th>申请时间</th>
+                <th>状态</th>
+                <th>操作</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <table>
+            <caption>历史申请信息</caption>
+            <thead>
+            <tr>
+                <th>申请号</th>
+                <th>员工号</th>
+                <th>工具号</th>
+                <th>工具所在公司</th>
+                <th>申请日期</th>
+                <th>申请时间</th>
+                <th>状态</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <footer>© Copyright FastRepair 2016</footer>
+</div>
+<script type="text/javascript" src="./script/jquery-2.2.2.js"></script>
+<script type="text/javascript" src="./script/md5.js"></script>
+<script type="text/javascript" src="script/apply_info.js"></script>
+</body>
+</html>

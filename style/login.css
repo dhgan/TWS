@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    min-width: 800px;
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    background: #F8F8F8;
+}
+
+#login_form {
+    border: 2px solid #367fa9;
+    padding: 20px 20px;
+    width: 320px;
+    margin: 100px 50%;
+    border-radius: 10px;
+}
+#login_form h3{
+	font-size: 25px;
+	font-weight: normal;
+	margin-bottom: 20px;
+	text-align: center;
+}
+#login_form label {
+    font-size: 16px;
+    line-height: 26px;
+    display: inline-block;
+    height: 26px;
+    width: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#login_form input {
+    height: 30px;
+    padding: 2px 5px;
+    font-size: 20px;
+    width: 220px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #367fa9;
+    outline: none;
+}
+#login_form input[type="submit"]{
+	width: 270px;
+	border: none;
+	border-radius: 10px;
+	height: 35px;
+	outline: none;
+	background: #367fa9;
+	color: white;
+	font-size: 20px;
+	display: block;
+	margin: 10px auto;
+	cursor: pointer;
+}
+#login_form #login_admin{
+    width: 15px;
+    height: 15px;
+    margin: 0 5px 0 210px;
+    vertical-align: middle;
+}
+#login_form .for_admin{
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    margin: 0;
+    vertical-align: middle;
+}

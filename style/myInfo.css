@@ -1,0 +1,72 @@
+#content table caption{
+    font-size: 24px;
+    font-weight:normal;
+    font-family:"KaiTi",sans-serif;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+}
+#content table caption small{
+    font-size: 14px;
+}
+#content table tr td{
+    height: 30px;
+    min-width:300px;
+    background: #bbbbbb;
+}
+#content table tr:nth-child(odd) td{
+    background: #dddddd;
+}
+#content table tr td span{
+    display: inline-block;
+    padding: 10px;
+}
+#content table tr td span:first-child{
+    text-align: center;
+    width: 70px;
+    color: #ffffff;
+    background: #456;
+}
+#content div{
+    width: 400px;
+}
+#content div h2{
+    font-size: 24px;
+    font-weight:normal;
+    font-family:"KaiTi",sans-serif;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+}
+#content div label{
+    font-size: 16px;
+    line-height: 26px;
+    display: inline-block;
+    height: 26px;
+    width: 75px;
+    margin: 10px;
+    text-align: right;
+}
+#content div input{
+    height: 30px;
+    padding: 2px 5px;
+    font-size: 20px;
+    width: 220px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #445566;
+    outline: none;
+}
+#content div input[type="button"]{
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    outline: none;
+    background: #367fa9;
+    color: white;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+    margin: 15px auto;
+}

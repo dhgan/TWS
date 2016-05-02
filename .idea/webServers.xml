@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b0737c46-e676-45bc-a4ce-54d1f54633d5" name="TWS" url="http://localhost:8090/TWS">
+        <fileTransfer port="0" mountedRoot="D:\GitHub\TWS" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

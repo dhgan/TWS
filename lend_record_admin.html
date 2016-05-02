@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>历史借还记录</title>
+    <link rel="stylesheet" href="style/basic.css">
+    <link rel="stylesheet" href="style/table_layout.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="employee.html">员工管理</a></li>
+        <li><a href="tool.html">工具管理</a></li>
+        <li><a href="lend_record_admin.html" class="selected">工具租借记录</a></li>
+        <li><a href="apply_info.html">工具申请信息</a></li>
+        <li><a href="admin_Info.html">个人信息</a></li>
+    </ul>
+</nav>
+<div id="main_page">
+    <header>
+        <a href="login.html">仓库实时管理系统</a>
+        <span id="logout">退出</span>
+    </header>
+    <div id="content">
+        <table>
+            <caption>当前租借信息</caption>
+            <thead>
+            <tr>
+                <th>登记号</th>
+                <th>员工号</th>
+                <th>工具号</th>
+                <th>公司</th>
+                <th>租借日期</th>
+                <th>租借时间</th>
+                <th>操作</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <table>
+            <caption>历史租借信息</caption>
+            <thead>
+            <tr>
+                <th>登记号</th>
+                <th>员工号</th>
+                <th>工具号</th>
+                <th>公司</th>
+                <th>租借日期</th>
+                <th>租借时间</th>
+                <th>归还日期</th>
+                <th>归还时间</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <footer>© Copyright FastRepair 2016</footer>
+</div>
+<script type="text/javascript" src="./script/jquery-2.2.2.js"></script>
+<script type="text/javascript" src="./script/md5.js"></script>
+<script type="text/javascript" src="script/lend_record_admin.js"></script>
+</body>
+</html>

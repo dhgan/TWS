@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>历史借还记录</title>
+    <link rel="stylesheet" href="style/basic.css">
+    <link rel="stylesheet" href="style/table_layout.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="apply_record.html">工具申请记录</a></li>
+        <li><a href="lend_record.html" class="selected">工具借还记录</a></li>
+        <li><a href="apply.html">工具查询与申请</a></li>
+        <li><a href="myInfo.html">个人信息</a></li>
+    </ul>
+</nav>
+<div id="main_page">
+    <header>
+        <a href="login.html">员工与工具信息管理系统</a>
+        <span id="logout">退出</span>
+    </header>
+    <div id="content">
+        <table>
+            <caption>当前租借信息</caption>
+            <thead>
+            <tr>
+                <th>登记号</th>
+                <th>员工号</th>
+                <th>工具号</th>
+                <th>公司</th>
+                <th>租借日期</th>
+                <th>租借时间</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <table>
+            <caption>历史租借信息</caption>
+            <thead>
+            <tr>
+                <th>登记号</th>
+                <th>员工号</th>
+                <th>工具号</th>
+                <th>公司</th>
+                <th>租借日期</th>
+                <th>租借时间</th>
+                <th>归还日期</th>
+                <th>归还时间</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <footer>© Copyright FastRepair 2016</footer>
+</div>
+<script type="text/javascript" src="./script/jquery-2.2.2.js"></script>
+<script type="text/javascript" src="./script/md5.js"></script>
+<script type="text/javascript" src="script/lend_record.js"></script>
+</body>
+</html>

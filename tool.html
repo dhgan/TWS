@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>工具管理</title>
+    <link rel="stylesheet" href="style/basic.css">
+    <link rel="stylesheet" href="style/table_layout.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="employee.html">员工管理</a></li>
+        <li><a href="tool.html" class="selected">工具管理</a></li>
+        <li><a href="lend_record_admin.html">工具租借记录</a></li>
+        <li><a href="apply_info.html">工具申请信息</a></li>
+        <li><a href="admin_Info.html">个人信息</a></li>
+    </ul>
+</nav>
+<div id="main_page">
+    <header>
+        <a href="login.html">仓库实时管理系统</a>
+        <span id="logout">退出</span>
+    </header>
+    <div id="content">
+        <div class="search">
+            <span>筛选</span>
+            <input type="text" name="search_input" id="search_input" placeholder="输入关键字进行筛选"/>
+            <!--<input type="button" value="删除所选工具">
+            <input type="button" value="借出所选工具" />-->
+            <input type="button" value="添加工具" id="add_tool"/>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <!--<th>选择</th>-->
+                <th>工具号</th>
+                <th>工具名</th>
+                <th>价格</th>
+                <th>公司</th>
+                <th>部门</th>
+                <th>状态</th>
+                <th>操作</th>
+                <!--<th>操作</th>-->
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <footer>© Copyright FastRepair 2016</footer>
+</div>
+<div id="shadow"></div>
+<div id="add_form" class="add">
+    <h2>请填写工具信息<span id="cancel_add">x</span></h2>
+    <div>
+        <label for="tool_id">工具号</label><input type="text" id="tool_id" /><br />
+        <label for="tool_name">工具名</label><input type="text" id="tool_name" /><br/>
+        <label for="prices">价格</label><input type="text" id="prices"><br />
+        <label for="dept_id" id="for_dept_id">部门</label><select name="dept_id" id="dept_id">
+        <option value="1">Construction Device Repair</option>
+        <option value="2">Automobile Repair</option>
+        <option value="3">Appliance Repair</option>
+        <option value="4">Computer Repair</option>
+    </select><br />
+        <input type="button" value="添加"/>
+    </div>
+</div>
+<div id="lend_tool" class="add">
+    <h2>请填写员号<span id="cancel_lend">x</span></h2>
+    <div>
+        <label for="employee_id">员工号</label><input type="text" id="employee_id" /><br />
+        <input type="button" value="确定"/>
+    </div>
+</div>
+<script type="text/javascript" src="./script/jquery-2.2.2.js"></script>
+<script type="text/javascript" src="./script/md5.js"></script>
+<script type="text/javascript" src="script/tool.js"></script>
+</body>
+</html>

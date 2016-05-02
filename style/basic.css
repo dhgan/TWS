@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0
+}
+html{
+    height: 100%;
+}
+body {
+    font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+    background: #F8F8F8;
+    min-width: 1180px;
+    height:100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    float: left;
+    background: #363636;
+    width: 200px;
+    height: 100%;
+    position: relative;
+    z-index: 100;
+}
+nav ul{
+    margin-top: 80px;
+}
+nav ul li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid gray;
+    color: white;
+    padding:0 40px;
+}
+nav ul li:first-child a{
+    border-top: 1px solid gray;
+}
+nav ul li a:hover {
+    background: #eb6;
+    color: #000;
+}
+ul li a.selected{
+    background: gray;
+    color: #fff;
+}
+
+#main_page{
+    overflow: auto;
+    height:100%;
+    position: relative;
+}
+#main_page header {
+    background-color: #367fa9;
+    padding-left: 100px;
+    height: 50px;
+    overflow: hidden;
+}
+#main_page header a{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    line-height:50px;
+    font-family: "kaiti", sans-serif;
+}
+#main_page header span{
+    float: right;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    line-height:50px;
+    font-family: "kaiti", sans-serif;
+    margin-right: 50px;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+}
+#main_page header span:hover{
+    background: #445566;
+}
+
+#content{
+    margin: 20px 0 60px 10%;
+}
+
+#main_page footer{
+    height: 40px;
+    line-height: 40px;
+    width:100%;
+    background-color: #ddd;
+    color: gray;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 99;
+    margin-left: -100px;
+}
+
+#shadow{
+    width: 100%;
+    height: 100%;
+    background: gray;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 101;
+    display: none;
+}
+.add{
+    border: 3px solid #367fa9;
+    border-radius: 4%;
+    position: fixed;
+    top: 10%;
+    left: 35%;
+    background: #dddddd;
+    z-index: 102;
+    display: none;
+}
+.add h2{
+    font-weight:normal;
+    height: 24px;
+    vertical-align: middle;
+    font-family: "kaiti",sans-serif;
+    font-size: 24px;
+    padding: 8px 10px 8px 30px;
+    cursor: move;
+}
+.add h2 span{
+    float: right;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    color: #999;
+    text-align: center;
+    margin-top: -6px;
+}
+.add h2 span:hover{
+    color: #367fa9;
+    cursor: pointer;
+}
+.add div{
+    margin: 10px 30px;
+}
+.add label{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom:10px;
+}
+.add input[type="text"],input[type="password"]{
+    height: 24px;
+    border: 1px solid #999999;
+    margin-bottom: 10px;
+    padding: 2px 5px;
+    font-size: 16px;
+    width: 200px;
+}
+.add select{
+    height: 30px;
+    font-size: 16px;
+}
+.add input[type="button"]{
+    border: none;
+    border-radius: 5px;
+    padding: 8px 40px;
+    font-size: 20px;
+    color: #ffffff;
+    background: #367fa9;
+    margin: 10px auto 20px;
+    cursor: pointer;
+    outline: none;
+    display: block;
+}
+.add input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+}

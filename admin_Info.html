@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8" />
+	<title>个人信息</title>
+    <link rel="stylesheet" href="style/basic.css">
+    <link rel="stylesheet" href="style/myInfo.css">
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="employee.html">员工管理</a></li>
+        <li><a href="tool.html">工具管理</a></li>
+        <li><a href="lend_record_admin.html">工具租借记录</a></li>
+        <li><a href="apply_info.html">工具申请信息</a></li>
+        <li><a href="admin_Info.html" class="selected">个人信息</a></li>
+    </ul>
+</nav>
+<div id="main_page">
+    <header>
+        <a href="login.html">仓库实时管理系统</a>
+        <span id="logout">退出</span>
+    </header>
+    <div id="content">
+        <table id="myInfo">
+            <caption>我的信息 <small>My Information</small></caption>
+            <tbody>
+            <tr>
+                <td>
+                    <span>管理员号</span>
+                    <span class="admin_id"></span>
+                </td>
+                <td>
+                    <span>姓名</span>
+                    <span class="admin_name"></span>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <span>性别</span>
+                    <span class="sex"></span>
+                </td>
+                <td>
+                    <span>公司</span>
+                    <span class="company_name"></span>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <div>
+            <h2>修改密码</h2>
+            <label for="old_pwd">原密码</label><input type="password" name="password" id="old_pwd"><br>
+            <label for="new_pwd">新密码</label><input type="password" name="password" id="new_pwd"><br>
+            <label for="new_pwd1">确认密码</label><input type="password" name="password" id="new_pwd1"><br>
+            <input type="button" value="确认" id="sure_btn">
+        </div>
+    </div>
+    <footer>© Copyright FastRepair 2016</footer>
+</div>
+<script type="text/javascript" src="./script/jquery-2.2.2.js"></script>
+<script type="text/javascript" src="./script/md5.js"></script>
+<script type="text/javascript" src="script/admin_info.js"></script>
+</body>
+</html>

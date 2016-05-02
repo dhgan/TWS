@@ -1,0 +1,73 @@
+#content .search{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+#content .search input[type="text"]{
+    height: 36px;
+    font-size: 18px;
+    padding: 0 10px;
+    float: left;
+    border-width: 1px;
+    border-style: solid;
+}
+#content .search span{
+    float: left;
+    height: 38px;
+    background: #367fa9;
+    color: white;
+    font-size: 20px;
+    line-height: 38px;
+    padding: 0 10px;
+    font-family: "Arial",sans-serif;
+}
+#content .search input[type="button"]{
+    float: left;
+    height: 38px;
+    background: #367fa9;
+    color: white;
+    border: none;
+    font-size: 20px;
+    line-height: 38px;
+    padding: 0 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+#content table{
+    margin-bottom: 20px;
+}
+#content table caption{
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    font-family: "kaiti",sans-serif;
+    text-align: left;
+}
+#content table tr th{
+    background: #456;
+    color: #fff;
+    font-weight: normal;
+    padding: 5px 20px;
+}
+#content table tr td{
+    padding: 10px;
+    text-align: center;
+    background: #bbb;
+}
+#content table tr:nth-child(odd) td{
+    background: #ddd;
+}
+#content table tr:hover td{
+    background: #ec8;
+}
+#content table tr td.operate{
+     background: #367fa9;
+     cursor: pointer;
+     color: #dddddd;
+ }
+#content table tr td.operate:hover{
+    color: #eebb66;
+}
+#content table tr td input{
+    height: 20px;
+    width: 20px;
+}
